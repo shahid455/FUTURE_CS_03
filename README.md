@@ -41,7 +41,7 @@ This is a secure file upload and download system built using **Python Flask** an
 
 ## 🚀 How to Run
 
-```bash
+
 git clone https://github.com/shahid455/FUTURE_CS_03.git
 cd secure-file-sharing
 python -m venv venv
