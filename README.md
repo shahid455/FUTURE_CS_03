@@ -25,8 +25,14 @@ This is a secure file upload and download system built using **Python Flask** an
 
 ## 📁 Folder Structure
 
-<pre> ```bash secure-file-sharing/ ├── app.py ├── encryption.py ├── requirements.txt ├── uploads/ # Encrypted files (.enc) ├── templates/ │ └── index.html ``` </pre>
-
+```bash
+secure-file-sharing/
+├── app.py
+├── encryption.py
+├── requirements.txt
+├── uploads/           # Encrypted files (.enc)
+├── templates/
+│   └── index.html
 
 ---
 
@@ -42,23 +48,24 @@ This is a secure file upload and download system built using **Python Flask** an
 ## 🚀 How to Run
 
 
-git clone https://github.com/shahid455/FUTURE_CS_03.git
-cd secure-file-sharing
-python -m venv venv
-venv\Scripts\activate   # (or source venv/bin/activate on Linux)
-pip install -r requirements.txt
-python app.py
+- git clone https://github.com/shahid455/FUTURE_CS_03.git
+- cd secure-file-sharing
+- python -m venv venv
+- venv\Scripts\activate   # (or source venv/bin/activate on Linux)
+- pip install -r requirements.txt
+- python app.py
 
 Visit: http://127.0.0.1:5000/
+
 
 ## 📄 Security Overview
 
 See [`security-overview.md`](./security-overview.md) for encryption flow and key handling details.
 
 
-🧠 Author
-Shahidul Hasan
+- 🧠 Author
+- Shahidul Hasan
 
-📜 License
-MIT License
+- 📜 License
+- MIT License
 
