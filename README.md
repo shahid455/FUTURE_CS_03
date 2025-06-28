@@ -25,13 +25,7 @@ This is a secure file upload and download system built using **Python Flask** an
 
 ## 📁 Folder Structure
 
-secure-file-sharing/
-├── app.py
-├── encryption.py
-├── requirements.txt
-├── uploads/ # Encrypted files (.enc)
-├── templates/
-│ └── index.html
+<pre> ```bash secure-file-sharing/ ├── app.py ├── encryption.py ├── requirements.txt ├── uploads/ # Encrypted files (.enc) ├── templates/ │ └── index.html ``` </pre>
 
 
 ---
@@ -57,8 +51,10 @@ python app.py
 
 Visit: http://127.0.0.1:5000/
 
-📄 Security Overview
-See security-overview.md for encryption flow and key handling details.
+## 📄 Security Overview
+
+See [`security-overview.md`](./security-overview.md) for encryption flow and key handling details.
+
 
 🧠 Author
 Shahidul Hasan
