@@ -33,7 +33,7 @@ secure-file-sharing/
 ├── uploads/           # Encrypted files (.enc)
 ├── templates/
 │   └── index.html
-
+```
 ---
 
 ## 🔐 How Encryption Works
